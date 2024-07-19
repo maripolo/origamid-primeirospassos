@@ -1,0 +1,23 @@
+/* 
+para uma boa caixa de conteúdos, precisamos levar em conta os seguintes pontos:
+1 - conteúdo
+2- paddign = conteúdo + borda
+3- borda = tamanho da borda
+*/
+
+div{
+    background: #aaa;
+    width: 140px; /*largura do quadrado*/
+    height: 80px; /*altura*/
+    padding: 40px; /*altura e largura do conteúdo*/
+    border:10px solid #000; /*borda ao redor do quadrado*/
+    margin: 30px; /*margem entre o final da tela e o conteúdo*/
+}
+
+h1{
+    background: blueviolet;
+    padding: 80px;
+    border: 5px solid wheat;
+    border-radius: 6px;
+    margin: 40px; /*a margem maior é a que vence entre os elementos*/
+}
