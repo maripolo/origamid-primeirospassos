@@ -1,0 +1,11 @@
+div{
+    background-color: burlywood;
+    width: 120px; /*largura*/
+    height: 40px; /*altura*/
+    padding: 30px; /*margem interna*/
+    border: 10px solid pink; /*borda*/
+    border-radius: 5px;
+
+}
+
+
